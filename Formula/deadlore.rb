@@ -1,8 +1,8 @@
 class Deadlore < Formula
   desc "Source-aware CLI for the community-maintained Deadlock Wiki"
   homepage "https://github.com/dorkitude/deadlore"
-  url "https://github.com/dorkitude/deadlore/archive/refs/tags/v0.2.2.tar.gz"
-  sha256 "6336d3842f8a17bf31e75062014d754eabd0c72f8de88cb7f01f429d66fadaa4"
+  url "https://github.com/dorkitude/deadlore/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "46958a4ca6b5d874013d72c825c1b85766620e7abc05f843f29981dcaf59cff6"
   license "CC-BY-NC-SA-4.0"
 
   depends_on "go" => :build
