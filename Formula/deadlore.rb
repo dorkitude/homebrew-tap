@@ -12,6 +12,6 @@ class Deadlore < Formula
   end
 
   test do
-    assert_match "source-aware Deadlock Wiki CLI", shell_output("#{bin}/deadlore --help")
+    assert_match "canonical Deadlock Wiki article", shell_output("#{bin}/deadlore --help")
   end
 end
