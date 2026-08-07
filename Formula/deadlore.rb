@@ -13,6 +13,6 @@ class Deadlore < Formula
 
   test do
     assert_match "canonical Deadlock Wiki article", shell_output("#{bin}/deadlore --help")
-    assert_match "Find popular public in-game builds", shell_output("#{bin}/deadlore build --help")
+    assert_match "Lists compact metadata for public in-game builds", shell_output("#{bin}/deadlore build --help")
   end
 end
