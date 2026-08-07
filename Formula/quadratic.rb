@@ -12,6 +12,6 @@ class Quadratic < Formula
   end
 
   test do
-    assert_match "quadratic version #{version}", shell_output("#{bin}/quadratic --version")
+    assert_match "quadratic version v#{version}", shell_output("#{bin}/quadratic --version")
   end
 end
