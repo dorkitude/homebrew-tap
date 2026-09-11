@@ -1,0 +1,14 @@
+name: EnronQA Homebrew installation
+on:
+  push:
+    paths: ['Formula/enronqa-cli.rb', '.github/workflows/enronqa.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  install:
+    runs-on: macos-14
+    steps:
+      - run: brew install dorkitude/tap/enronqa-cli
+      - run: brew test dorkitude/tap/enronqa-cli
+      - run: enronqa --version
