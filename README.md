@@ -22,3 +22,12 @@ cfctl docs
 ```
 
 See [cfctl](https://github.com/dorkitude/cfctl).
+
+Skim pages, files, and lists with Jev, keeping only what helps with your goal (saves agent tokens):
+
+```bash
+brew install dorkitude/tap/skimmer
+skimmer auth
+```
+
+See [skimmer](https://github.com/dorkitude/skimmer).
