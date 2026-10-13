@@ -23,6 +23,15 @@ cfctl docs
 
 See [cfctl](https://github.com/dorkitude/cfctl).
 
+Tailscale admin from your terminal (devices, tags, policy file, auth keys, any API endpoint):
+
+```bash
+brew install dorkitude/tap/tsctl
+tsctl auth status
+```
+
+See [tsctl](https://github.com/dorkitude/tsctl).
+
 Skim pages, files, and lists with Jev, keeping only what helps with your goal (saves agent tokens):
 
 ```bash
