@@ -1,6 +1,6 @@
 cask "macinto-sh" do
-  version "0.1.102"
-  sha256 "8593ba8de48bc38e8bb439c7ef06b97670bef1e41cff08dda3451f64b79248dc"
+  version "0.1.103"
+  sha256 "980dd61942c3f1f71d6df8e394163380af2e0a342cc49db51b69581259dd4753"
 
   url "https://github.com/dorkitude/macinto-sh/releases/download/v#{version}/Macinto.sh-#{version}.dmg"
   name "Macinto.sh"
