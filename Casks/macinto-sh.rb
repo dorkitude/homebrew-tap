@@ -12,7 +12,7 @@ cask "macinto-sh" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Macinto.sh.app"
   binary "#{appdir}/Macinto.sh.app/Contents/Helpers/macinto.sh"
