@@ -40,3 +40,12 @@ skimmer auth
 ```
 
 See [skimmer](https://github.com/dorkitude/skimmer).
+
+DreamHost from your terminal (DNS records, announcement lists, the whole API):
+
+```bash
+brew install dorkitude/tap/dhctl
+dhctl auth
+```
+
+See [dhctl](https://github.com/dorkitude/dhctl).
