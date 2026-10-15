@@ -49,3 +49,12 @@ dhctl auth
 ```
 
 See [dhctl](https://github.com/dorkitude/dhctl).
+
+Let agents control your Mac (click, type, read UI, screenshots) through a CLI and MCP server, enabled for a limited time from a menu bar app:
+
+```bash
+brew install --cask dorkitude/tap/macinto-sh
+open -a Macinto.sh
+```
+
+See [macinto-sh](https://github.com/dorkitude/macinto-sh).

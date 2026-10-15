@@ -1,0 +1,14 @@
+name: Macinto.sh Homebrew installation
+on:
+  push:
+    paths: ['Casks/macinto-sh.rb', '.github/workflows/macinto-sh.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  install:
+    runs-on: macos-15
+    steps:
+      - run: brew install --cask dorkitude/tap/macinto-sh
+      - run: macinto.sh --version
+      - run: test -d /Applications/Macinto.sh.app
