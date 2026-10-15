@@ -1,8 +1,8 @@
 class Skimmer < Formula
   desc "Skim pages, files, and lists with Jev: keep only what helps with your goal. Saves agent tokens."
   homepage "https://github.com/dorkitude/skimmer"
-  url "https://github.com/dorkitude/skimmer/archive/refs/tags/v0.1.100.tar.gz"
-  sha256 "4f3f51fdee5446cba6920ad39a108e65cf26ea85230f16eee56b7d6e457f8aaa"
+  url "https://github.com/dorkitude/skimmer/archive/refs/tags/v0.1.102.tar.gz"
+  sha256 "dd9f97d3bc3f879ac00b58825418b4d2557b9c9b43060e3b276e4cf8525dd912"
   license "MIT"
 
   depends_on "go" => :build
