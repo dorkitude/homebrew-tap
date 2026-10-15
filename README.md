@@ -54,7 +54,7 @@ Let agents control your Mac (click, type, read UI, screenshots) through a CLI an
 
 ```bash
 brew install --cask dorkitude/tap/macinto-sh
-open -a Macinto.sh
+open /Applications/Macinto.sh.app
 ```
 
 See [macinto-sh](https://github.com/dorkitude/macinto-sh).

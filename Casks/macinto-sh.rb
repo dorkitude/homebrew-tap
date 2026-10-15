@@ -26,7 +26,7 @@ cask "macinto-sh" do
   ]
 
   caveats <<~EOS
-    Finish setup: run `open -a Macinto.sh` (or any `macinto.sh` command).
+    Finish setup: run `open /Applications/Macinto.sh.app` (or any `macinto.sh` command).
     Macinto.sh needs Accessibility and Screen Recording, and stays disabled
     until you enable it from its window or menu bar icon.
   EOS
