@@ -1,6 +1,6 @@
 cask "macinto-sh" do
-  version "0.1.101"
-  sha256 "f7a2f2b78f1d3e33ce64c3e8446e2208c731e24f45d95b02794af9a74f9c874b"
+  version "0.1.102"
+  sha256 "8593ba8de48bc38e8bb439c7ef06b97670bef1e41cff08dda3451f64b79248dc"
 
   url "https://github.com/dorkitude/macinto-sh/releases/download/v#{version}/Macinto.sh-#{version}.dmg"
   name "Macinto.sh"
@@ -26,7 +26,7 @@ cask "macinto-sh" do
   ]
 
   caveats <<~EOS
-    Finish setup: run `open /Applications/Macinto.sh.app` (or any `macinto.sh` command).
+    Finish setup: run `macinto.sh setup`.
     Macinto.sh needs Accessibility and Screen Recording, and stays disabled
     until you enable it from its window or menu bar icon.
   EOS
