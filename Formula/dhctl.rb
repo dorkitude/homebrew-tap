@@ -1,8 +1,8 @@
 class Dhctl < Formula
   desc "CLI for the DreamHost API: DNS records, announcement lists, API metacommands"
   homepage "https://github.com/dorkitude/dhctl"
-  url "https://github.com/dorkitude/dhctl/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "e5a389c6acb3736af4d6ddbabe88e1f490501f1b9f463fc66da315f4e86492e8"
+  url "https://github.com/dorkitude/dhctl/archive/refs/tags/v0.3.100.tar.gz"
+  sha256 "f1dd1ddeda2c8cf11ce84172b87272daa0564a48501506021b1c161cfe190695"
   license "MIT"
 
   depends_on "go" => :build
