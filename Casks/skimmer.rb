@@ -1,19 +1,19 @@
 cask "skimmer" do
-  version "0.1.104"
+  version "0.1.105"
 
   on_macos do
-    url "https://github.com/dorkitude/skimmer/releases/download/v0.1.104/skimmer_0.1.104_darwin_all.tar.gz"
-    sha256 "97b0b446999076cd5e40e272ee6425a20c89c1e1dc1fa7a929d076c4ceee3197"
+    url "https://github.com/dorkitude/skimmer/releases/download/v0.1.105/skimmer_0.1.105_darwin_all.tar.gz"
+    sha256 "4f76b0ef0bf9cbf7cb91e225dabec51dc8fc13f48ddd8ded9bb81fcb2c7e2f4a"
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/dorkitude/skimmer/releases/download/v0.1.104/skimmer_0.1.104_linux_arm64.tar.gz"
-      sha256 "7db53847656e24931fbf24134502a92c2af090361bae7d739d62406ae487d460"
+      url "https://github.com/dorkitude/skimmer/releases/download/v0.1.105/skimmer_0.1.105_linux_arm64.tar.gz"
+      sha256 "9a75cd7f27869e49d10ca3b5d656e444d2ec339b40014ef6a9f5b4527cda3ad1"
     end
     on_intel do
-      url "https://github.com/dorkitude/skimmer/releases/download/v0.1.104/skimmer_0.1.104_linux_amd64.tar.gz"
-      sha256 "5487636765733d652f42d8f48ddbab12787cbf06a6b8e42149ac3d808009e2d4"
+      url "https://github.com/dorkitude/skimmer/releases/download/v0.1.105/skimmer_0.1.105_linux_amd64.tar.gz"
+      sha256 "bea58a28365de4e8e45a6cda0e41d91a4e4a199c940a8238b69b74bbb7c31f0f"
     end
   end
 
